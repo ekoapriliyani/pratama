@@ -1,4 +1,4 @@
-<section class="w-full py-16 bg-red-700">
+<section class="w-full py-16 bg-red-600">
     <div class="container mx-auto px-4 max-w-6xl">
         <!-- Judul Section -->
         <h2 class="text-3xl md:text-4xl font-bold text-center text-white mb-12">

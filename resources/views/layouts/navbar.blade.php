@@ -1,10 +1,32 @@
-<nav class="bg-gray-100 border-b border-gray-200">
+<nav class="bg-white shadow-md">
     <div class="container mx-auto px-4">
         <div class="flex justify-between items-center py-4">
-            <!-- Logo -->
-            <div>
-                <a href="/" class="text-2xl font-extrabold text-primary">PT. PRATAMA BANGUN LESTARI</a>
-                <p class="text-sm text-gray-600">General Contractor - Construction - Fabrication and Supplier</p>
+            <!-- Logo dan Nama Perusahaan -->
+            <div class="flex items-center">
+                <!-- Logo -->
+                <a href="/" class="flex items-center">
+                    <img src="{{ asset('images/logo.jpg') }}" alt="PT. PRATAMA BANGUN LESTARI" class="h-12 mr-3">
+                    <div>
+                        <div class="text-xl font-bold text-primary">PT. PRATAMA BANGUN LESTARI</div>
+                        <div class="text-xs text-gray-600">General Contractor - Construction - Fabrication and Supplier
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Menu Desktop -->
+            <div class="hidden md:flex items-center space-x-8">
+                <a href="/"
+                    class="font-medium text-gray-900 hover:text-secondary border-b-2 border-transparent hover:border-secondary py-2 transition duration-300">HOME</a>
+                <a href="/products"
+                    class="font-medium text-gray-900 hover:text-secondary border-b-2 border-transparent hover:border-secondary py-2 transition duration-300">PRODUCT</a>
+                <a href="/projects"
+                    class="font-medium text-gray-900 hover:text-secondary border-b-2 border-transparent hover:border-secondary py-2 transition duration-300">OUR
+                    PROJECT</a>
+                <a href="/services"
+                    class="font-medium text-gray-900 hover:text-secondary border-b-2 border-transparent hover:border-secondary py-2 transition duration-300">SERVICE</a>
+                <a href="/blog"
+                    class="font-medium text-gray-900 hover:text-secondary border-b-2 border-transparent hover:border-secondary py-2 transition duration-300">BLOG</a>
             </div>
 
             <!-- Hamburger Menu (Mobile) -->
@@ -15,15 +37,6 @@
                             d="M4 6h16M4 12h16M4 18h16" />
                     </svg>
                 </button>
-            </div>
-
-            <!-- Menu Items (Desktop) -->
-            <div class="hidden md:flex space-x-8">
-                <a href="/" class="font-medium text-gray-900 hover:text-secondary">HOME</a>
-                <a href="/products" class="font-medium text-gray-900 hover:text-secondary">PRODUCT</a>
-                <a href="/projects" class="font-medium text-gray-900 hover:text-secondary">OUR PROJECT</a>
-                <a href="/services" class="font-medium text-gray-900 hover:text-secondary">SERVICE</a>
-                <a href="/blog" class="font-medium text-gray-900 hover:text-secondary">BLOG</a>
             </div>
         </div>
 
