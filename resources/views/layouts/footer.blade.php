@@ -1,4 +1,5 @@
-<footer class="bg-gray-950 text-white pt-12 pb-6">
+<footer
+    class="bg-gray-950 text-white pt-12 pb-6 shadow-[0_-4px_6px_-1px_rgba(0,0,0,0.1),0_-2px_4px_-2px_rgba(0,0,0,0.1)]">
     <div class="container mx-auto px-4">
         <!-- Grid Layout -->
         <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-8 mb-8">

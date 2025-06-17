@@ -13,12 +13,12 @@
                 </a>
 
             </div>
-            <br><br>
-
-            {{-- <h2 class="text-3xl font-bold text-center text-primary mb-12">TENTANG KAMI</h2> --}}
             @include('components.about')
+
 
         </div>
     </section>
     @include('components.achievements')
+    @include('components.services')
+    @include('components.projects')
 @endsection

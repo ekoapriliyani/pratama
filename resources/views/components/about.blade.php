@@ -1,7 +1,5 @@
 <section class="py-16 bg-white">
     <div class="container mx-auto px-4 max-w-6xl">
-        <!-- Judul Section -->
-        <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-12">ABOUT US</h2>
 
         <!-- Konten About Us -->
         <div class="grid md:grid-cols-2 gap-8 items-center">
