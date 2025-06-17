@@ -60,7 +60,7 @@
             <!-- Project 2 -->
             <div class="bg-gray-50 rounded-lg p-6 text-center cursor-pointer hover:shadow-md transition duration-300"
                 @click="openModal = true; selectedProject = {
-                    title: 'AHM',
+                    title: 'RECON SARANA',
                     logo: '{{ asset('images/recon.png') }}',
                     description: 'Proyek infrastruktur besar untuk Apical dengan fokus pada solusi berkelanjutan.',
                     services: 'Engineering, Procurement, Construction',
